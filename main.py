@@ -72,6 +72,7 @@ print("\n-Los puntos se daran aleatoriamente "+RESET)
 
 time.sleep(6) 
 
+#para limpiar la consola, si estas en windows us ("cls")
 system("cls")
 
 #creamos un bucle para comenzar y si quiere seguir jugando
@@ -117,7 +118,8 @@ while iniciatrivia==True:
       puntaje=puntaje-random.randint(1,10)
     
     time.sleep(2) 
-
+    
+#para limpiar la consola, si estas en windows us ("cls")
     system("cls") 
     inicio+=1
 
@@ -133,6 +135,7 @@ while iniciatrivia==True:
   print("\nDeseas realizar la trivia otravez ?")
   opcion=input("\n1)si         2)no    : ").lower()
 
+#para limpiar la consola, si estas en windows us ("cls")
   system("cls")
 
   if opcion=='si':
